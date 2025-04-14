@@ -87,8 +87,7 @@ signal.signal(signal.SIGINT, handle_sigint)
 
 def display_watermark():
     banner = f"{GREEN}{BOLD}FOR MY LOVE HAPPY ASMARA{RESET}"
-    print("
-" + "=" * 65)
+    print("" + "=" * 65)
     print(f"{banner:^65}")
     print("=" * 65 + "
 ")
